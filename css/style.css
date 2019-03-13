@@ -1,0 +1,244 @@
+body,
+html {
+    width: 100%;
+    height: 100%;
+    
+}
+.abc{
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+}
+.img1{
+    width: 80%;
+    height: auto;
+}
+.skc{
+    width: 350px;
+    height: auto;
+}
+body{
+    padding-top:100px;
+    
+}
+
+
+      html, body {
+        height: 100%;
+        margin: 0;
+        padding: 0;
+      }
+      #description {
+        font-family: Roboto;
+        font-size: 15px;
+        font-weight: 300;
+      }
+
+      #infowindow-content .title {
+        font-weight: bold;
+      }
+
+      #infowindow-content {
+        display: none;
+      }
+
+      #map #infowindow-content {
+        display: inline;
+      }
+
+      .pac-card {
+        margin: 10px 10px 0 0;
+        border-radius: 2px 0 0 2px;
+        box-sizing: border-box;
+        -moz-box-sizing: border-box;
+        outline: none;
+        box-shadow: 0 2px 6px rgba(0, 0, 0, 0.3);
+        background-color: #fff;
+        font-family: Roboto;
+      }
+
+      #pac-container {
+        padding-bottom: 12px;
+        margin-right: 12px;
+      }
+
+      .pac-controls {
+        display: inline-block;
+        padding: 5px 11px;
+      }
+
+      .pac-controls label {
+        font-family: Roboto;
+        font-size: 13px;
+        font-weight: 300;
+      }
+
+      #pac-input {
+        background-color: #fff;
+        font-family: Roboto;
+        font-size: 15px;
+        font-weight: 300;
+        margin-left: 12px;
+        padding: 0 11px 0 13px;
+        text-overflow: ellipsis;
+        width: 400px;
+      }
+
+      #pac-input:focus {
+        border-color: #4d90fe;
+      }
+
+      #title {
+        color: #fff;
+        background-color: #4d90fe;
+        font-size: 25px;
+        font-weight: 500;
+        padding: 6px 12px;
+      }
+      #target {
+        width: 345px;
+      }
+
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: "Lato","Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-weight: 700;
+    
+}
+.formh {
+    color: whitesmoke;
+}
+#content{
+    min-height: 600px;
+}
+
+#banner_image {
+    padding-bottom: 50px;
+    text-align: center;
+    color: #f8f8f8;
+    background: url(../img/intro-bg_1.jpg) no-repeat center center;
+    background-size: cover;
+}
+
+#banner_content {
+    position: relative;
+    padding-top: 6%;
+    padding-bottom: 6%;
+    margin-top: 12%;
+    margin-bottom: 12%;
+    background-color: rgba(0, 0, 0, 0.7);
+    max-width: 660px;
+}
+
+#item_list {
+    padding-top: 50px;
+}
+
+/*This code ensures that when we navigate to a particular section of a page, the section does not get lost behind the header*/
+#cameras:before, #watches:before, #shirts:before{
+    display: block; 
+    content: " "; 
+    margin-top: -85px; 
+    height: 85px; 
+    visibility: hidden;
+}
+.itlist{
+   padding-bottom: 100px ;
+}
+
+#login-panel .panel-footer{
+    font-weight:normal;
+}
+
+footer {
+    padding: 10px 0;
+    background-color: black;
+    
+    color:white;
+    bottom: 0;
+    width: 100%;
+}
+
+.red{
+    color:red;
+}
+.desk {
+    display: block;
+}
+
+#settings-container{
+    margin-bottom:10px;
+}
+
+.navbar-brand{
+    font-size:20px;
+}
+
+@media(max-width:768px) {
+    #banner_content {
+        padding-bottom: 15%;
+    }
+    footer{
+        text-align:left;
+    }
+    .desk{
+        visibility: hidden;
+    }
+}
+@media(max-width: 475px){
+    .desk {
+        visibility: hidden;
+    }
+    .pop {
+    position: static;
+
+    width: 100%;
+}
+}
+
+.remove_item_link{
+    color:#0000ff;
+}
+footer {
+    position: fixed;
+    bottom:  0px;
+    left: 0px;
+}
+.co {
+    background-color: #2A363B;
+}
+.icon {
+     width: auto;
+        height: 50px;
+        float: left;
+        padding-left: 5px;
+}
+.wi {
+    height:50px;
+}
+.buttoon {
+    padding-bottom: 10px;
+}
+.bt1 {
+    position: relative;
+    top: 8px;
+}
+.pop {
+    position: fixed;
+    top: 50px;
+    left: 0px;
+    background-color: rgba(0,0,0,0.6);
+    width: 100%;
+}
+.akcm{
+    padding: 50px;
+	background: url(bbb.jpg);
+	background-size: cover;
+	background-position: center;
+
+}
