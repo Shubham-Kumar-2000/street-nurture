@@ -60,8 +60,8 @@ if ($num != 0) {
     $mail->SMTPSecure= 'tls';
     $mail->Host= "smtp.gmail.com";
     $mail->Port= 587;
-    $mail->Username= "shukhu10@gmail.com";
-    $mail->Password= "i loveu69";
+    $mail->Username= "<your email>";
+    $mail->Password= "<your password>";
     $mail->SetFrom('shukhu10@gmail.com');
     $mail->Subject= "OTP";
     $mail->Body=$mailb;
